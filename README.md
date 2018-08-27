@@ -4,7 +4,7 @@
 Each recursive loop recurs 9 times with updated relative coordinates.
 
 ### Interactive Tree Fractal
-Each recursion splits off into 2 or 3 branches depending on the 'Tree.binary' variable./
+Each recursion splits off into 2 or 3 branches depending on the 'Tree.binary' variable.\
 This is toggled using SPACE.
 
 Togglable variables:
