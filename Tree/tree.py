@@ -5,7 +5,7 @@ window_length = 800
 
 s = [window_length] * 2
 pygame.init()
-screen = pygame.display.set_mode(s,0,32)
+screen = pygame.display.set_mode(s, 0, 32)
 clock = pygame.time.Clock()
 pygame.display.set_caption("Fractal Tree by NIP")
 
@@ -53,7 +53,7 @@ def main():
             t.decay += 0.02
             t.draw_tree()
 
-        print(t.factor,t.delta,t.decay,t.binary)
+        print(t.factor, t.delta, t.decay, t.binary)
 
 if __name__ == "__main__":
     main()
